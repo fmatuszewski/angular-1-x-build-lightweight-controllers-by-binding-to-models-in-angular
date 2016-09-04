@@ -7,6 +7,8 @@ class BookmarksController{
   $onInit(){
     this.BookmarksModel.getBookmarks()
       .then(result => this.bookmarks = result);
-      
+
   }
 }
+
+export default BookmarksController;
