@@ -3,8 +3,8 @@ import CategoriesModule from './categories/categories';
 import BookmarksModule from './bookmarks/bookmarks';
 
 const ComponentModule = angular.module('components',[
-  CategoriesModule.name,
-  BookmarksModule.name
+    CategoriesModule.name
+  , BookmarksModule.name
 
 ]);
 
